@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-    <Route path="/" element={<Home />}>
-        <Route index element={<Contact/>} /> 
+    <Route exact path="/" element={<Home />}>
+        <Route exact path='/contact' element={<Contact/>} /> 
 
       </Route>
     </Routes>
