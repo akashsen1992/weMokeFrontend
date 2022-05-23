@@ -1,9 +1,5 @@
 import './App.css';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Contact from './Contact';
 import Header from './component/Header';
@@ -15,12 +11,11 @@ function App() {
     <BrowserRouter>
     <Header />
     <Routes>
-        <Route exact path="/" element={<Home />}>
-        <Route exact path='/contact' element={<Contact/>} />
-      </Route>
+        <Route path="/" element={<Home />} />
+        <Route exact path="/Contact" element={<Contact />} /> 
     </Routes>
     <Footer />
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
