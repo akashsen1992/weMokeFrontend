@@ -1,4 +1,5 @@
 import './App.css';
+import '../src/themes/global.scss';
 import {
   BrowserRouter,
   Routes,
