@@ -4,31 +4,32 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import IcDriving from '../src/images/ic-driving-license.svg'
-import IcSpeedometer from '../src/images/ic-speedometer.svg'
-import IcCalendar from '../src/images/ic-calendar.svg'
-import CitiesOne from '../src/images/cities-01.png'
-import CitiesTwo from '../src/images/cities-02.png'
-import CitiesThree from '../src/images/cities-03.png'
-import CitiesFour from '../src/images/cities-04.png'
-import CitiesFive from '../src/images/cities-05.png'
-import CitiesSix from '../src/images/cities-06.png'
-import ImgYoga from '../src/images/yoga-img-01.png'
-import IcDelivery from '../src/images/ic-delivery.svg'
-import IcElectric from '../src/images/ic-electric.svg'
-import IcVehicle from '../src/images/ic-vehicle.svg'
-import IcCamera from '../src/images/ic-camera.svg'
-import IcCruising from '../src/images/ic-cruising.svg'
-import IcBluetooth from '../src/images/ic-bluetooth.svg'
-import HeroHome from '../src/images/hero-home.png'
+
+import IcDriving from '../images/ic-driving-license.svg'
+import IcSpeedometer from '../../src/images/ic-speedometer.svg'
+import IcCalendar from '../../src/images/ic-calendar.svg'
+import CitiesOne from '../../src/images/cities-01.png'
+import CitiesTwo from '../../src/images/cities-02.png'
+import CitiesThree from '../../src/images/cities-03.png'
+import CitiesFour from '../../src/images/cities-04.png'
+import CitiesFive from '../../src/images/cities-05.png'
+import CitiesSix from '../../src/images/cities-06.png'
+import ImgYoga from '../../src/images/yoga-img-01.png'
+import IcDelivery from '../../src/images/ic-delivery.svg'
+import IcElectric from '../../src/images/ic-electric.svg'
+import IcVehicle from '../../src/images/ic-vehicle.svg'
+import IcCamera from '../../src/images/ic-camera.svg'
+import IcCruising from '../../src/images/ic-cruising.svg'
+import IcBluetooth from '../../src/images/ic-bluetooth.svg'
+import HeroHome from '../../src/images/hero-home.png'
 
 
 
-import SliderOne from '../src/images/slider-one.png'
-import SliderTwo from '../src/images/slider-two.png'
-import SliderThree from '../src/images/slider-three.png'
-import SliderFour from '../src/images/slider-four.png'
-import SliderFive from '../src/images/slider-five.png'
+import SliderOne from '../../src/images/slider-one.png'
+import SliderTwo from '../../src/images/slider-two.png'
+import SliderThree from '../../src/images/slider-three.png'
+import SliderFour from '../../src/images/slider-four.png'
+import SliderFive from '../../src/images/slider-five.png'
 
 
 var testimonials = {
