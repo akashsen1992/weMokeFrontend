@@ -1,8 +1,8 @@
 import './App.css';
 import '../src/themes/global.scss';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
 import Header from './component/Header';
 import Footer from './component/Footer';
 
