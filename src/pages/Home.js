@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,6 +21,7 @@ import IcCamera from '../src/images/ic-camera.svg'
 import IcCruising from '../src/images/ic-cruising.svg'
 import IcBluetooth from '../src/images/ic-bluetooth.svg'
 import HeroHome from '../src/images/hero-home.png'
+
 
 
 import SliderOne from '../src/images/slider-one.png'
