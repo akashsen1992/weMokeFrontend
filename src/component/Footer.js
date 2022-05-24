@@ -33,6 +33,7 @@ const Footer = () => {
         </div>
       </div>
     </section>
+    
   )
 }
 

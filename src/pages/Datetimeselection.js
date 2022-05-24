@@ -1,10 +1,20 @@
 import React,{useState} from 'react'
-import DateTimePicker from 'react-datetime-picker';
+import DatePicker from "react-multi-date-picker"
 const Datetimeselection = () => {
-  const [value, onChange] = useState(new Date());
+  const today = new Date()
+  const tomorrow = new Date()
+
+  tomorrow.setDate(tomorrow.getDate() + 1)
+
+  const [values, setValues] = useState([today, tomorrow])
+ 
   return (
 <div>
-      <DateTimePicker onChange={onChange} value={value} />
+<DatePicker 
+      multiple
+      value={values} 
+      onChange={setValues}
+    />
     </div>
   )
 }
