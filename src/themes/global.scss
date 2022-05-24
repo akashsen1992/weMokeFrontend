@@ -1006,6 +1006,14 @@ h1 {
     display: inline-block;
   }
 }
+.openmenu.header-links {
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transform: translateX(0%) !important;
+  -webkit-transform: translateX(0%) !important;
+  -moz-transform: translateX(0%) !important;
+}
 .header-flex {
   display: flex;
   align-items: center;
