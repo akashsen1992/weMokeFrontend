@@ -37,7 +37,15 @@ var testimonials = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: false,
+      }
+    },
+  ]
   };
   
 var pictures = {
@@ -45,7 +53,23 @@ var pictures = {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+      breakpoint: 1024,
+      settings: {
+        arrows: false,
+        slidesToShow: 4,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: false,
+        slidesToShow: 2,
+      }
+    },
+  ]
   };
 
   
