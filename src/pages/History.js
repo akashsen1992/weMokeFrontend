@@ -14,6 +14,7 @@ const History = () => {
       <div className='hero-section'>
         <div className='hero-img-wrap'>
           <img src={ HeroHistory } />
+          <div className='overlay'></div>
         </div>
         <div className='hero-text'>
           <h3>History</h3>
