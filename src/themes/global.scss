@@ -1041,6 +1041,9 @@ font-family: 'Raleway';
 /* history css close */
 
 // header css open
+.brandlogo {
+  height: 76px;
+}
 .ic-menu {
   display: none;
   background: none;
@@ -1060,7 +1063,7 @@ font-family: 'Raleway';
 .header-flex {
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #ededed;
   @media (max-width: 767px) {
     justify-content: space-between;

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import IcFacebook from '../images/ic-facebook.svg'
 import IcInstagram from '../images/ic-instagram.svg'
 
@@ -9,13 +11,13 @@ const Footer = () => {
         <div className='row'>
           <div className='col-lg-3 col-md-4 col-sm-12'>
             <h4>Menu</h4>
-            <a href=''>History</a>
-            <a href=''>Contact</a>
+            <Link to='/history'>History</Link>
+            <Link to='/contact' >Contact</Link>
           </div>
           <div className='col-lg-3 col-md-4 col-sm-12'>
             <h4>WeMoke</h4>
-            <a href=''>FAQs</a>
-            <a href=''>COVID-19</a>
+            <Link to='faq' >FAQs</Link>
+            <Link to=''>COVID-19</Link>
           </div>
           <div className='ml-auto'>
             <h4>Social</h4>
