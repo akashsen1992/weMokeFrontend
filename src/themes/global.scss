@@ -1041,8 +1041,15 @@ font-family: 'Raleway';
 /* history css close */
 
 // header css open
+.hide-scroll {
+  max-height: 100vh;
+  overflow-y: hidden !important;
+}
 .brandlogo {
   height: 76px;
+  @media (max-width: 767px) {
+    height: 42px;
+  }
 }
 .ic-menu {
   display: none;
