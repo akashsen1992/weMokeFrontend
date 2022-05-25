@@ -139,36 +139,42 @@ const Home = () => {
                   <div className="img-box">
                     <img src={ CitiesOne } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
                 <li>
                   <div className="img-box">
                     <img src={ CitiesTwo } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
                 <li>
                   <div className="img-box">
                     <img src={ CitiesThree } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
                 <li>
                   <div className="img-box">
                     <img src={ CitiesFour } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
                 <li>
                   <div className="img-box">
                     <img src={ CitiesFive } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
                 <li>
                   <div className="img-box">
                     <img src={ CitiesSix } />
                   </div>
+                  <div className="overlay-img"></div>
                   <h4>Palm Springs</h4>
                 </li>
               </ul>
